@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway')
+
+$pink: #e31b6d
+$main: #009ada
+$mainligh: 04c2c9
+$second: #00a1a7
+$darkgray: #252934
+$superlightgray: #eee
+
+body
+  font-family: 'Raleway', sans-serif
+
+.number-font
+  font-family: "Arial"
+
+.text-cyan
+  color: $main
+.text-pink
+  color: $pink
+
+// fix bootstrap issues
+.bg-dark
+  background: $darkgray !important
+
+.bg-darker
+  background: #1B242F !important
+
+
+.bg-pink
+  background: #e84588 !important
+
+// start navbar
+nav.navbar
+  border-bottom: 5px solid #009adab5
+  .nav-item.active .nav-link
+    color: #eb3d6d
+    font-weight: bold
+
+// end navbar
+.jumbotron
+  border-radius: 0
+  padding-top: 100px
+  .h2
+    font-size: 3em
+  .btn
+    border-radius: 0
+    background: initial
+    border: 1px solid white
+    padding: 5px 16px
+
+// start courses
+.courses
+  h1
+    color: #555
+
+// start instructors
+.instructors
+  h1
+    color: #555
+
+// footer
+footer
+  padding: 50px 0px
+  ul
+    margin: 0
+    list-style: none
+    padding-left: 0
+    width:360px
+    overflow: hidden
+    margin: auto
+
+    li
+      float: left
+      margin: 10px
+
+.copyrights
+  color: #CCC

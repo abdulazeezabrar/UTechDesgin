@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.number-font {
+  font-family: "Arial";
+}
+
+.text-cyan {
+  color: #009ada;
+}
+
+.text-pink {
+  color: #e31b6d;
+}
+
+.bg-dark {
+  background: #252934 !important;
+}
+
+.bg-darker {
+  background: #1B242F !important;
+}
+
+.bg-pink {
+  background: #e84588 !important;
+}
+
+nav.navbar {
+  border-bottom: 5px solid #009adab5;
+}
+nav.navbar .nav-item.active .nav-link {
+  color: #eb3d6d;
+  font-weight: bold;
+}
+
+.jumbotron {
+  border-radius: 0;
+  padding-top: 100px;
+}
+.jumbotron .h2 {
+  font-size: 3em;
+}
+.jumbotron .btn {
+  border-radius: 0;
+  background: initial;
+  border: 1px solid white;
+  padding: 5px 16px;
+}
+
+.courses h1 {
+  color: #555;
+}
+
+.instructors h1 {
+  color: #555;
+}
+
+footer {
+  padding: 50px 0px;
+}
+footer ul {
+  margin: 0;
+  list-style: none;
+  padding-left: 0;
+  width: 360px;
+  overflow: hidden;
+  margin: auto;
+}
+footer ul li {
+  float: left;
+  margin: 10px;
+}
+
+.copyrights {
+  color: #CCC;
+}
+
+/*# sourceMappingURL=style.css.map */
